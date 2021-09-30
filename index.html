@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<SCRIPT LANGUAGE="Javascript"><!--
+// ***********************************************
+// Bu kodu aliegesazak'tan aldınız..
+// ***********************************************
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+var EnableRightClick = 0;
+if(isNS)
+document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+if(EnableRightClick==1){ return true; }
+else {return false; }
+}
+function mousehandler(e){
+if(EnableRightClick==1){ return true; }
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+function keyhandler(e) {
+var myevent = (isNS) ? e : window.event;
+if (myevent.keyCode==96)
+EnableRightClick = 1;
+return;
+}
+document.oncontextmenu = mischandler;
+document.onkeypress = keyhandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+//-->
+</script>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0;">
+	<title>Ali Ege Sazak</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="https://raw.githubusercontent.com/zentoxdev/photo/main/ezgif-3-4941a3916dc5.jpg" type="image/png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+
+<meta property="og:title" content="Ali Ege Sazak">
+<meta property="og:description" content="Ali Ege Sazak">
+<meta property="og:image" content="https://raw.githubusercontent.com/zentoxdev/photo/main/ezgif-3-4941a3916dc5.jpg">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="1000">
+<meta property="og:url" content="https://aliegesazak.com">
+<meta property="og:site_name" content="aliegesazak.com">
+<meta property="og:type" content="website">
+
+<body>
+
+<div>
+	<div class="loader"></div>
+</div>
+
+<header>
+	<div>
+		<div class="dairesel"></div>
+    </div>
+</header>
+
+<section>
+	<div class="title">
+		<p>Ali Ege Sazak</p>
+	</div>
+</section>
+
+<article>
+	<div>
+        <a class="button instagram" href="https://instagram.com/aliegesazak" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+	</div>
+	</div>
+	<a class="button snapchat" href="https://www.snapchat.com/add/aliegeszk?share_id=N-boEEjHJR8&locale=tr-TR" target="_blank"><i class="fab fa-snapchat"></i> Snapchat</a>
+	</div>
+	</div>
+	<a class="button twitter" href="https://twitter.com/aliegesazak" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        </div>
+	<a class="button tiktok" href="https://www.tiktok.com/@aliegesazak?" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+</article>
+
+    <script src="https://kit.fontawesome.com/45676346c8.js" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(window).on("load",function(){
+          $(".loader").fadeOut("slow");
+        });
+	</script>
+
+<audio controls="controls" autoplay="autoplay">
+
+<source src="dalga.ogg" type="audio/ogg">
+
+<source src="dalga.mp3" type="audio/mp3">
+
+Tarayıcınız audio etiketini desteklememektedir.
+
+</audio>
+
+</body>
+
+</html>
