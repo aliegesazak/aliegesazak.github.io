@@ -52,7 +52,7 @@ audio {
   color: #fff;
   position: fixed;
   top: 340px;
-  right: 1024px;
+  right: 824px;
   font-size: 40px;
   font-family: 'Lexend Deca', sans-serif;
 }
@@ -61,7 +61,7 @@ audio {
   color: rgb(255, 0, 98);
   position: fixed;
   top: 340px;
-  right: 1024px;
+  right: 824px;
   font-size: 40px;
   font-family: 'Lexend Deca', sans-serif;
 }
@@ -75,7 +75,7 @@ audio {
   border: 5px solid #0d1117;
   position: fixed;
   top: 100px;
-  right: 1030px;
+  right: 830px;
   transition: all 0.3s;
   background: url(https://raw.githubusercontent.com/zentoxdev/photo/main/ezgif-3-4941a3916dc5.jpg) no-repeat;
   }
@@ -89,7 +89,7 @@ audio {
   border: 5px solid #ff0062;
   position: fixed;
   top: 100px;
-  right: 1030px;
+  right: 830px;
   background: url(https://raw.githubusercontent.com/zentoxdev/photo/main/ezgif-3-4941a3916dc5.gif) no-repeat;
   }
 
@@ -121,7 +121,7 @@ audio {
   border-radius: 5px;
   transition-duration: 0.4s;
   float: left 10px;
-  left: 100px;
+  left: 700px;
 }
 
 .button.instagram:hover {
@@ -138,7 +138,7 @@ audio {
   border-radius: 5px;
   transition-duration: 0.4s;
   float: left 10px;
-  left: 222px;
+  left: 822px;
 }
 
 .button.snapchat:hover {
@@ -155,7 +155,7 @@ audio {
   border-radius: 5px;
   transition-duration: 0.4s;
   float: left 10px;
-  left: 336px;
+  left: 936px;
 }
 
 .button.twitter:hover {
@@ -172,7 +172,7 @@ audio {
   border-radius: 5px;
   transition-duration: 0.4s;
   float: left 10px;
-  left: 430px;
+  left: 1030px;
 }
 
 .button.tiktok:hover {
