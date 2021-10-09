@@ -1,7 +1,7 @@
 <?php
-$link = mysqli_connect('host', 'user', 'pass'); //host, user, pass
+$link = mysqli_connect('sql11.freesqldatabase.com', 'sql11443238', 'FpyyTUwIWA'); //host, user, pass
 
-$database = mysqli_select_db($link, "db_name"); //Set here your db name
+$database = mysqli_select_db($link, "sql11443238"); //Set here your db name
 
 $user = $_GET['username'];
 $hwid = $_GET['hwid'];
