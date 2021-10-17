@@ -712,3 +712,171 @@ h6 {
         background: #06090f;
     }
   }
+
+@media screen and (min-width: 160px) and (max-width : 550px) {
+
+      audio {
+        color: #0066ff;
+        position: fixed;
+        top: 520px;
+        right: 120px;
+      }
+      
+      .title {
+        color: #fff;
+        position: fixed;
+        top: 365px;
+        right: 185px;
+        font-size: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+      }
+      
+      .title:hover {
+        color: rgb(255, 0, 98);
+        position: fixed;
+        top: 365px;
+        right: 185px;
+        font-size: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+      }
+      
+      .dairesel {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        border: 5px solid #0d1117;
+        position: fixed;
+        top: 210px;
+        right: 185px;
+        transition: all 0.3s;
+        background: url(https://raw.githubusercontent.com/aliegesazak/aliegesazak.github.io/main/150x150.jpg) no-repeat;
+        }
+      
+      .dairesel:hover {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        border: 5px solid #ff0062;
+        position: fixed;
+        top: 210px;
+        right: 185px;
+        background: url(https://raw.githubusercontent.com/aliegesazak/aliegesazak.github.io/main/150x150.gif) no-repeat;
+        }
+      
+      .button {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #efc20f;
+        font-size: 15px;
+        padding: 10px 24px;
+        border-radius: 2px;
+        transition-duration: 0.4s;
+        float: right 20px;
+        position: fixed;
+        top: 450px;
+        float: left 10px;
+      }
+        
+      .button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+      }
+        
+      .button.instagram {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #F58529;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        float: left 10px;
+        left: 18px;
+      }
+      
+      .button.instagram:hover {
+        color: #fff;
+        background-color: #df7927;
+      }
+      
+      .button.snapchat {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #dbd800;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        float: left 10px;
+        left: 140px;
+      }
+      
+      .button.snapchat:hover {
+        color: #fff;
+        background-color: #b9b602;
+      }
+      
+      .button.twitter {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #08a0e9;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        float: left 10px;
+        left: 254px;
+      }
+      
+      .button.twitter:hover {
+        color: #fff;
+        background-color: #0084B4;
+      }
+      
+      .button.telegram {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #0088cc;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        float: left 10px;
+        left: 348px;
+      }
+      
+      .button.telegram:hover {
+        color: #fff;
+        background-color: #0071aa;
+      }  
+      .button.tiktok {
+        color: #fff;
+        font-family: 'Lexend Deca', sans-serif;
+        background-color: #EE1D52;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        transition-duration: 0.4s;
+        float: left 10px;
+        left: 459px;
+      }
+      
+      .button.tiktok:hover {
+        color: #fff;
+        background-color: #d31a48;
+      }
+      
+      .loader {
+          position: fixed;
+          z-index: 999999;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #06090f;
+      }
+    }
